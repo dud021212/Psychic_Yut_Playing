@@ -1,0 +1,32 @@
+.venv/
+__pycache__/
+*.pyc
+checkpoints/
+
+# Local environments and build output
+.venv-coreml/
+venv/
+*.egg-info/
+build/
+dist/
+.pytest_cache/
+.coverage
+htmlcov/
+.DS_Store
+
+# Credentials and local configuration
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+.aws/
+.codex/
+.agents/
+
+# Training and conversion artifacts
+*.pt
+*.pth
+*.mlpackage/
+*.mlmodelc/
+*.log
